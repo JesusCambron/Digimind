@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logobrain"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What do you want to remember to do?"
+        android:textColor="@color/colorPreguntas"
+        />
+
+    <EditText
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme"
+
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="When do you want to do it?"
+        android:textColor="@color/colorPreguntas"
+        />
+
+    <CheckBox
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monday"
+        android:layoutDirection="rtl"/>
+
+    <CheckBox
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tuesday"
+        android:layoutDirection="rtl"/>
+
+    <CheckBox
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wednesday"
+        android:layoutDirection="rtl"/>
+
+    <CheckBox
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thursday"
+        android:layoutDirection="rtl"/>
+
+    <CheckBox
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Friday"
+        android:layoutDirection="rtl"/>
+
+    <CheckBox
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Saturday"
+        android:layoutDirection="rtl"/>
+
+    <CheckBox
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sunday"
+        android:layoutDirection="rtl"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="At what time?"
+        android:textColor="@color/colorPreguntas"
+        />
+
+    <EditText
+        android:layout_marginLeft="58dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Set time"
+        />
+
+</LinearLayout>

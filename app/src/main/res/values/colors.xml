@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00ACAC</color>
+    <color name="colorPrimaryDark">#018787</color>
+    <color name="colorAccent">#C875BA</color>
+    <color name="gray">#A39F9F</color>
+    <color name="colorCeldas">#9CE1E1</color>
+    <color name="colorPreguntas">#915287</color>
+</resources>
