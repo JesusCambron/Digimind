@@ -6,4 +6,7 @@
     <color name="gray">#A39F9F</color>
     <color name="colorCeldas">#9CE1E1</color>
     <color name="colorPreguntas">#915287</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimaryLight">#D21BBABA</color>
+    <color name="blue">#1231DF</color>
 </resources>
